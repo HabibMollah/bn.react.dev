@@ -1573,7 +1573,7 @@ export async function fetchBio(person) {
 - `'Bob'` ফেচ করা সম্পন্ন হয়
 - `'Bob'` রেন্ডারের ইফেক্ট **কিছুই করে না কারণ এর `ignore` ফ্ল্যাগ `true` সেট করা হয়েছিল**
 
-In addition to ignoring the result of an outdated API call, you can also use [`AbortController`](https://developer.mozilla.org/en-US/docs/Web/API/AbortController) to cancel the requests that are no longer needed. However, by itself this is not enough to protect against race conditions. More asynchronous steps could be chained after the fetch, so using an explicit flag like `ignore` is the most reliable way to fix this type of problems.
+আউটডেটেড API কলের ফলাফল ignore করার পাশাপাশি, আপনি [`AbortController`](https://developer.mozilla.org/en-US/docs/Web/API/AbortController) ব্যবহার করে যেসব রিকোয়েস্টের আর প্রয়োজন নেই সেগুলো বাতিল করতে পারেন। তবে, শুধুমাত্র এটাই রেস কন্ডিশন থেকে রক্ষা করার জন্য যথেষ্ট নয়। ফেচের পরে আরও অ্যাসিঙ্ক্রোনাস ধাপ যুক্ত হতে পারে, তাই `ignore` এর মতো একটি স্পষ্ট ফ্ল্যাগ ব্যবহার করা এই ধরনের সমস্যা সমাধানের সবচেয়ে নির্ভরযোগ্য উপায়।
 
 </Solution>
 
