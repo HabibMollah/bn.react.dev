@@ -11,10 +11,10 @@ title: 'Effects দিয়ে Synchronizing'
 <YouWillLearn>
 
 - Effects কী  
-- কীভাবে Effect গুলো events থেকে আলাদা 
+- Effects কীভাবে events থেকে আলাদা 
 - কীভাবে আপনার কম্পোনেন্টে Effect ডিক্লেয়ার করবেন 
 - কীভাবে অকারণে কোন Effect রি-রানিং এড়াবেন
-- কেন ডেভেলপমেন্টের সময় Effects দুইবার রান হয় এবং সেগুল কীভাবে ঠিক করবেন
+- কেনো ডেভেলপমেন্টের সময় Effects দুইবার রান হয় এবং সেগুলো কীভাবে ঠিক করবেন
 
 </YouWillLearn>
 
